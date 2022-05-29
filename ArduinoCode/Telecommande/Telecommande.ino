@@ -11,7 +11,7 @@ int btnValGauche  = 0;
 int btnValDroite  = 0;
 int curseur = 1; //Le curseur sert a savoir quel musique doit être afficher sur l'écran
 int curseur2 = 1; //Cette variable permet de savoir si on vient d'arriver sur une nouvelle musique donc si on doit clear l'écran puis l'afficher ou si on regarde juste si elle doit être joué.
-int nombreMusique = 4;
+int nombreMusique = 7;
 
 DisplaySSD1306_128x64_I2C display(-1);
 
@@ -85,9 +85,9 @@ void loop() {
   if (btnValMilieu<200) {
     //On envoie et affiche la suite de note a jouer.
     LoRa.beginPacket();
-    LoRa.print("1112302013221");  
+    LoRa.print("51112302013221");  
     LoRa.endPacket();
-    Serial.print("1112302013221");
+    Serial.print("51112302013221");
     delay(800);
   }
  } else if (curseur == 2) {
@@ -99,37 +99,79 @@ void loop() {
   
   if (btnValMilieu<200) {
     LoRa.beginPacket();
-    LoRa.print("11556650443322105544332055443320115566504433221");  
+    LoRa.print("411556650443322105544332055443320115566504433221");  
     LoRa.endPacket();
-    Serial.print("11556650443322105544332055443320115566504433221");
+    Serial.print("411556650443322105544332055443320115566504433221");
     delay(800);
   }
  } else if (curseur == 3) {
   if (curseur2 != 3) {
     curseur2 = 3;
   display.clear();
-  display.printFixedN (0,  16, "C418 Haggstrom", STYLE_NORMAL, FONT_SIZE_2X);
+  display.printFixedN (0,  16, "C418      Haggstrom", STYLE_NORMAL, FONT_SIZE_2X);
   }
   
   if (btnValMilieu<200) {
     LoRa.beginPacket();
-    LoRa.print("821821682182108218216821821");  
+    LoRa.print("5821821682182108218216821821");  
     LoRa.endPacket();
-    Serial.print("821821682182108218216821821");
+    Serial.print("5821821682182108218216821821");
     delay(800);
   }
  } else if (curseur == 4) {
   if (curseur2 != 4) {
     curseur2 = 4;
   display.clear();
-  display.printFixedN (0,  16, "Fairy's Glitter", STYLE_NORMAL, FONT_SIZE_2X);
+  display.printFixedN (0,  16, "Fairy's   Glitter", STYLE_NORMAL, FONT_SIZE_2X);
   }
   
   if (btnValMilieu<200) {
     LoRa.beginPacket();
-    LoRa.print("432065604554586054504056543213121");  
+    LoRa.print("4432065604554586054504056543213121");  
     LoRa.endPacket();
-    Serial.print("432065604554586054504056543213121");
+    Serial.print("4432065604554586054504056543213121");
+    delay(800);
+  }
+ } else if (curseur == 5) {
+  if (curseur2 != 5) {
+    curseur2 = 5;
+  display.clear();
+  display.printFixedN (0,  16, "Children  lullaby", STYLE_NORMAL, FONT_SIZE_2X);
+  }
+  
+  if (btnValMilieu<200) {
+    LoRa.beginPacket();
+    LoRa.print("467576660777066606757666077675");  
+    LoRa.endPacket();
+    Serial.print("467576660777066606757666077675");
+    delay(800);
+  }
+ } else if (curseur == 6) {
+  if (curseur2 != 6) {
+    curseur2 = 6;
+  display.clear();
+  display.printFixedN (0,  16, "La vie en rose", STYLE_NORMAL, FONT_SIZE_2X);
+  }
+  
+  if (btnValMilieu<200) {
+    LoRa.beginPacket();
+    LoRa.print("38007653870065317600532176005");  
+    LoRa.endPacket();
+    Serial.print("38007653870065317600532176005");
+    delay(800);
+  }
+ } else if (curseur == 7) {
+  if (curseur2 != 7) {
+    curseur2 = 7;
+  display.clear();
+  display.printFixedN (0,  16, "Mad World", STYLE_NORMAL, FONT_SIZE_2X);
+  }
+  
+  if (btnValMilieu<200) {
+    LoRa.beginPacket();
+    LoRa.print("422442266060400550503005505043200224422660604005505030055050432002244667505775520024466750577552");  
+    LoRa.endPacket();
+    Serial.print("422442266060400550503005505043200224422660604005505030055050432002244667505775520024466750577552");
     delay(800);
   }
  }
