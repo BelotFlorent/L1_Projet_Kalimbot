@@ -12,4 +12,9 @@
 
 * **Samedi 23 Avril** :
 
+<p1>  Pour commencer mon premier objectif était de réussir a faire communiquer les deux cartes, celle qui servira de télécommande et celle receptrice qui servira a faire fonctionner les servomoteurs. Je suis donc parti des codes dont nous nous étions servi en TP permettant de communiquer en peer to peer entre deux cartes en LoRa. J'ai réussi sans trop de problème grâce au tp. La deuxième étape était d'envoyer un message pouvant être utilisé dans le code de la deuxième carte et pas seulement affiché dans le terminal, il ma fallu un peu de temps pour comprendre qu'il fallait utiliser la boucle "while (LoRa.available())", ensuite il a juste fallu mettre des "if" et "else if".
+  Ensuite mon second objectif était de réussir a faire bouger un servomoteur. J'ai eu un peu plus de mal a faire ça, bien que nous avions déjà fait bouger les servomoteurs en tp je ne me souvennais plus trop du fonctionnement du code, surtout que pour arranger le tout j'étais tombé sur le seul servomoteurs qui était défaillant. Avec un peu d'aide j'ai finallement reussi à comprendre le fonctionnement du code pour les servomoteurs.
+  Et pour finir j'ai fusionner le tout pour permettre de faire bouger 2 servomoteurs en fonction du message envoyé (1 ou 2).
+</p1>
+
 *******************
