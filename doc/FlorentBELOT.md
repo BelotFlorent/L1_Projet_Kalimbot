@@ -28,5 +28,5 @@
 
 * **Samedi 21 mai** :
 
-<p1>  Aujourd'hui l'objectif était de reussir a jouer Au clair de la Lune avec 3 servomoteurs.
+<p1>  Aujourd'hui l'objectif était de reussir à jouer le début de "Au clair de la Lune" avec 3 servomoteurs. 
 </p1>
