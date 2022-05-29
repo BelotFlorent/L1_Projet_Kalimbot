@@ -26,6 +26,7 @@ Le principe du Kalimbot est de jouer des partions de Kalimba et de pouvoir chois
 * Un Kalimba<br/>
 * Deux cartes UCA avec breadboard<br/>
 * Un écran<br/>
+* 3 boutons<br/>
 * Des serres câbles<br/>
 * Des visses<br/>
 * De la deco (les yeux et les notes)<br/>
