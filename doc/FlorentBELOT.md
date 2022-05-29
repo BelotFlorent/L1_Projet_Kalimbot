@@ -58,5 +58,5 @@
 
 * **Jeudi 26 mai** :
 
-<p1> Aujourd'hui est la dernière ligne droite, il ne me reste plus qu'à rajouter des musiques dans le code de la télécommande, sauf à un détails, il faut que je modifie le code des deux cartes pour que les 3 premiers chiffre de représente le délais en millisecondes entre chaque notes. Une fois cela fait et les musique qu'Alexis m'a envoyer rajouter le Kalimbot était donc fini à 100%.
+<p1> Aujourd'hui est la dernière ligne droite, il ne me reste plus qu'à rajouter des musiques dans le code de la télécommande, sauf à un détails, il faut que je modifie le code des deux cartes pour que le premier chiffre de représente le délais en dixième de seconde entre chaque notes. Une fois cela fait et les musique qu'Alexis m'a envoyer rajouter le Kalimbot était donc fini à 100%.
 </p1>
