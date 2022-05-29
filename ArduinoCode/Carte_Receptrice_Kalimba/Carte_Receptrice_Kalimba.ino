@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <LoRa.h>
 #include <Servo.h>
-
-//Initialisation des servomoteurs.
+#include <stdlib.h>
+//Initialistation des servomoteurs
 Servo servo1;
 Servo servo2;
 Servo servo3;
@@ -12,7 +12,8 @@ Servo servo6;
 Servo servo7;
 Servo servo8;
 
-//On définit les variables pour la transmission LoRa
+// Parameters you can play with :
+
 int txPower = 14; // from 0 to 20, default is 14
 int spreadingFactor = 12; // from 7 to 12, default is 12
 long signalBandwidth = 250E3; // 7.8E3, 10.4E3, 15.6E3, 20.8E3, 31.25E3,41.7E3,62.5E3,125E3,250E3,500e3, default is 125E3
@@ -22,10 +23,9 @@ int preambleLength=20; // from 2 to 20, default is 8
 #define SS 10
 #define RST 8
 #define DI0 6
-#define BAND 872E6
+#define BAND 872E6  // Here you define the frequency carrier
 
 void setup() {
-  //Setup LoRa
   Serial.begin(115200);
   while (!Serial);
 
@@ -52,7 +52,7 @@ void setup() {
  LoRa.setCodingRate4(codingRateDenominator);
  LoRa.setPreambleLength(preambleLength);
 
-//On attache les servomoteurs à leurs ports sur la carte.
+
  servo1.attach(3);
  servo2.attach(9);
  servo3.attach(5);
@@ -64,20 +64,29 @@ void setup() {
 }
 
 void loop() {
-  //On récupère le message envoyer si il y en a un qu'on stocke dans la variable message.
+   // try to parse packet
   int packetSize = LoRa.parsePacket();
   if (packetSize) {
     String message;
+    int counter = 0;
+    int delais = 0;
     while (LoRa.available()) {
-      message += (char)LoRa.read();
+      if (counter < 1) {
+        char centaine = (char)LoRa.read();
+        int c = centaine-48; //parce que c'est codé en ASCII donc il faut retirer 48 pour avoir le vrais chiffre
+        delais += c*100;
+      } else {
+        message += (char)LoRa.read();
+      }
+      counter++;
     }
-    //On affiche le message qui contient la partition.
     Serial.print("message: ");
     Serial.print(message); 
+    Serial.print("delais: ");
+    Serial.print(delais); 
     Serial.print("  RSSI ");
     Serial.println(LoRa.packetRssi());
-
-    //On défini le degré initial de chaque servomoteur avant chaque musique.
+    
     int degre1 = 110;
     int degre2 = 110;
     int degre3 = 80;
@@ -86,7 +95,6 @@ void loop() {
     int degre6 = 110;
     int degre7 = 70;
     int degre8 = 110;
-    int delais = 500;
     int longueur = message.length();
     servo1.write(degre1);
     servo2.write(degre2);
@@ -97,19 +105,16 @@ void loop() {
     servo7.write(degre7);
     servo8.write(degre8);
     delay(2000);
-
-    //On boucle sur chaque caractère du message qui sont des nombre entre 0 et 8 correspondant au servomoteurs à actionner (ou un temps mort si c'est 0).
+    
     int i;
     for (i=0; i<longueur; i++) {
       Serial.println(message[i]);
       if ((String)message[i] == "1") {
-        //On change le degré pour la position heute ou basse du servomoteurs.
         if (degre1 == 90) {
           degre1 = 110;
         } else {
           degre1 = 90;
         }
-        //Puis on change la position du servomoteurs pour qu'il joue la note.
         servo1.write(degre1);
       delay(delais);
      } 
