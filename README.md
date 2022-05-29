@@ -22,7 +22,7 @@ Le principe du Kalimbot est de jouer des partions de Kalimba et de pouvoir chois
 * Une planche en bois (MDF)<br/>
 * Une pallete en bois<br/>
 * De beaucoup de files<br/>
-* Des files de fer (trombones)<br/>
+* Des fils de fer (trombones)<br/>
 * Un Kalimba<br/>
 * Deux cartes UCA avec breadboard<br/>
 * Un écran<br/>
