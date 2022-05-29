@@ -8,7 +8,7 @@
 *******************
 * **Mercredi 12 Mai :**
 
-<p2>Pour ce premier jour, j'ai rejoins Alexis à Valrose pour commencer à avancer sur le projet. Ce jour-ci, nous avons commencé à préparer les schémas du Kalimbot. On a décidé des mesures que le Kalimbot allait faire, en mettant sur papier toutes les parties de bois que nous allons devoir découper. Il a donc fallut réfléchir à la surface de bois qui sera nécessaire, et aux différentes possibilitées d'assemblement.</p2>
+<p2>Pour ce premier jour, j'ai rejoins Alexis à Valrose pour commencer à avancer sur le projet. Ce jour-ci, nous avons commencé à préparer les schémas du Kalimbot. On a décidé des mesures que le Kalimbot allait faire, en mettant sur papier toutes les parties de bois que nous allons devoir découper. Il a donc fallu réfléchir à la surface de bois qui sera nécessaire, et aux différentes possibilitées d'assemblement.</p2>
 <br/><br/>
 
 *******************
@@ -20,13 +20,13 @@
 *******************
 * **Séance au Fablab du Lundi 23 Mai :**
 
-<p4>Avec les mesures d’Alexis j’ai découpé les différentes parties du Kalimbot avec une scie à boire et une scie à métaux pour les parties qui ne sont pas droites. Une fois tout découpé j’ai pris une chute de bois et j’ai remarqué que vu que le bois était du MDF il se craquelait quand on visse sur la tranche on a donc décidé de prendre du bois de palette pour fixer les deux planches de MDF ensemble. On a donc fini la séance à découper un bout de palette. </p4>
+<p4>Avec les mesures d’Alexis j’ai découpé les différentes parties du Kalimbot avec une scie à bois et une scie à métaux pour les parties qui ne sont pas droites. Une fois tout découpé j’ai pris une chute de bois et j’ai remarqué que vu que le bois était du MDF il se craquelait quand on vissait sur la tranche, on a donc décidé de prendre du bois de palette pour fixer les deux planches de MDF ensemble. On a donc fini la séance à découper un bout de palette. </p4>
 <br/><br/>
 
 *******************
 * **2e Séance au Fablab du Mardi 24 Mai :**
 
-<p5>Dans cette séance avec les mesures d’Alexis j’ai percé tous les trous qui allait accueillir les visses ensuite on a tout assemblé pour avoir le support dans des servomoteurs avec le Kalimba à l'intérieur de cette boîte.</p5>
+<p5>Dans cette séance avec les mesures d’Alexis j’ai percé tous les trous qui allait accueillir les visses, ensuite on a tout assemblé pour avoir le support dans des servomoteurs avec le Kalimba à l'intérieur de cette boîte.</p5>
 <br/><br/>
 
 *******************
