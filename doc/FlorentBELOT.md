@@ -36,5 +36,5 @@
 * **Lundi 23 mai** Séance au fablab :
 
 <p1>  Aujourd'hui nous nous sommes tous retrouvé au fablab et j'ai pu récuperer les files manquants pour pouvoir brancher les 8 servomoteurs en même temps, donc j'ai modifier le code pour qu'il puisse utiliser 8 servomoteurs en même temps, j'ai tout brancher (ce qui ma pris en certains temps), et puis j'ai tester le code avec d'autre musqiue pour voir si tout marchait bien, et tout a bien marché.
-  Mon nouvelle objectif était donc de pouvoir utiliser l'écran fourni avec qui servira pour la télécommande. 
+  Mon nouvelle objectif était donc de pouvoir utiliser l'écran fourni avec les cartes qui servira pour la télécommande. Je n'ais pas vraiment reussi. 
 </p1>
