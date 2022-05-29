@@ -26,7 +26,7 @@
 *******************
 * **2e Séance au Fablab du Mardi 24 Mai :**
 
-<p5>Dans cette séance avec les mesures d’Alexis j’ai percé tous les trous qui allait accueillir les visses, ensuite on a tout assemblé pour avoir le support dans des servomoteurs avec le Kalimba à l'intérieur de cette boîte.</p5>
+<p5>Dans cette séance avec les mesures d’Alexis j’ai percé tous les trous qui allait accueillir les visses, ensuite on a tout assemblé pour avoir le support des servomoteurs, avec le Kalimba à l'intérieur de cette boîte.</p5>
 <br/><br/>
 
 *******************
