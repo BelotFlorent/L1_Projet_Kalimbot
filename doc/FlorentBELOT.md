@@ -51,5 +51,12 @@
 
 * **Mercredi 25 mai** Séance au fablab :
 
-<p1>
+<p1>  Pour cette dernière séance, il ne nous restait plus qu'à bien placer tout les servomoteurs. Pour commencer, j'ai préparé plusieurs trombones avec Alexis et Shanti que nous allions utilisé comme "pâle" qui allait appuyer sur les notes (en effet, les trombonnes sont assez solides pour tenir et en même temps assez souple pour passer en dessous de la note et ensuite remonter). Après avoir finis cela, nous avons assemblé tout les palonniers sur les servomoteurs, et il fallait maintenant arriver à placer le servomoteur dans la bonne position pour qu'il arrive à appuyer sur la note (les servomoteurs étant assez faibles, il fallait vraiment placer les servomoteurs au milimètre près pour qu'il arriver à appuyer sur la note et à remonter sans bloquer). Donc dans cette partie mon rôle était de lancer les tests pour savoir si les servomoteurs était bien positionner et de changer l'angles pour que chaque servomoteurs soit bien orienté et ne descend pas trop ou pas assez. Une fois cette étape fini le Kalimbot était donc terminé, il ne nous manquait plus qu'à rajouter des musiques.
+</p1>
+
+*******************
+
+* **Jeudi 26 mai** :
+
+<p1> Aujourd'hui est la dernière ligne droite, il ne me reste plus qu'à rajouter des musiques dans le code de la télécommande, sauf à un détails, il faut que je modifie le code des deux cartes pour que les 3 premiers chiffre de représente le délais en millisecondes entre chaque notes. Une fois cela fait et les musique qu'Alexis m'a envoyer rajouter le Kalimbot était donc fini à 100%.
 </p1>
