@@ -1,13 +1,4 @@
-*** export HTML ***
+
 *******************
-<Title>Cahier de suivi du projet de Alexis DUBARRY</Title>
+<h1>Cahier de suivi du projet de Alexis DUBARRY</h1>
 
-
-*** Code Markdown ***
-*********************
-
-Ligne sans espace à la fin
-Ligne avec 2 espaces à la fin
-Troisième ligne
-*** export HTML ***
-*******************
