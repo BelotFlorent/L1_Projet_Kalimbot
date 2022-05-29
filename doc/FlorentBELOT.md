@@ -28,5 +28,13 @@
 
 * **Samedi 21 mai** :
 
-<p1>  Aujourd'hui l'objectif était de reussir à jouer le début de "Au clair de la Lune" avec 3 servomoteurs. 
+<p1>  Aujourd'hui l'objectif était de reussir à jouer le début de "Au clair de la Lune" avec 3 servomoteurs. Dans un premier temps j'étais partie sur le principe d'envoyer une note à la fois avec la "télécommande" qui n'en était pas encore une, grâce à une boucle. Le problème de cette solution c'est qu'il était impossible de jouer rapidement les notes parce que cela prend du temps d'envoyer et de recevoir un message. Si l'on veut avoir une musique fluide ce n'est pas pratique. Donc après un petit moment de refléxion me vient l'idée toute simple d'envoyer la suite de note à jouer sous forme d'un seul message en une suite de caractère et d'utiliser une boucle dans le code de la carte réceptrice ce qui était bien plus pratique pour stocker et envoyer plusieurs musique sans problème. Du coup après avoir écrit le code j'ai donc rentrer la suite "1112302013221" correspondant au début de "Au clair de la Lune", et tout marcha avec une vitesse correct.
+</p1>
+
+*******************
+
+* **Lundi 23 mai** Séance au fablab :
+
+<p1>  Aujourd'hui nous nous sommes tous retrouvé au fablab et j'ai pu récuperer les files manquants pour pouvoir brancher les 8 servomoteurs en même temps, donc j'ai modifier le code pour qu'il puisse utiliser 8 servomoteurs en même temps, j'ai tout brancher (ce qui ma pris en certains temps), et puis j'ai tester le code avec d'autre musqiue pour voir si tout marchait bien, et tout a bien marché.
+  Mon nouvelle objectif était donc de pouvoir utiliser l'écran fourni avec qui servira pour la télécommande. 
 </p1>
