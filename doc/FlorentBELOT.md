@@ -36,5 +36,20 @@
 * **Lundi 23 mai** Séance au fablab :
 
 <p1>  Aujourd'hui nous nous sommes tous retrouvé au fablab et j'ai pu récuperer les files manquants pour pouvoir brancher les 8 servomoteurs en même temps, donc j'ai modifier le code pour qu'il puisse utiliser 8 servomoteurs en même temps, j'ai tout brancher (ce qui ma pris en certains temps), et puis j'ai tester le code avec d'autre musqiue pour voir si tout marchait bien, et tout a bien marché.
-  Mon nouvelle objectif était donc de pouvoir utiliser l'écran fourni avec les cartes qui servira pour la télécommande. Je n'ais pas vraiment reussi. 
+  Mon nouvelle objectif était donc de pouvoir utiliser l'écran fourni avec les cartes qui servira pour la télécommande. Je n'ais pas vraiment réussi et la fablab allait fermé donc j'ai attendu le lendemain pour le faire.
+</p1>
+
+*******************
+
+* **Mardi 24 mai** Séance au fablab :
+
+<p1>  Aujourd'hui mon objectif est de réaliser la télécommande avec les boutons et l'écran foncitonnelle. Dans un premier temps j'ai préférer faire fonctionner les boutons, donc avec plusieurs essai de code j'ai reussi a faire marcher les 3 boutons, ensuite il a fallu que je réussisse a faire marcher l'écran, grâce à l'exemple du cours cela n'a pas été trop compliqué. Ensuite j'ai modifier le code de la télécommande qui en devient enfin une. J'ai donc rajouter les boutons et l'écrans. Le problème que j'ai eu était ensuite qu'il ne m'était pas possible de mettre des variables dans la fonction pour l'affichage sur l'écran du coup au final j'ai juste fait des conditions avec plein de "if" pour chanque musique. J'ai donc réussi a faire la télécommande. Le dernier détail était de l'utiliser avec une batterie mais cela n'a pas été très compliqué parce que le professeur m'avait expliquer comment m'en servir.
+  J'ai donc réussi a faire la télécommande et le code qui receptionne les messages et permet de jouer les partitions, ma partie du projet était terminé à quelque détails prêt.
+</p1>
+
+*******************
+
+* **Mercredi 25 mai** Séance au fablab :
+
+<p1>
 </p1>
