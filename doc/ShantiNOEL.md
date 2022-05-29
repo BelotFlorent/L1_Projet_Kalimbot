@@ -33,4 +33,4 @@
  * **3e Séance au Fablab du Mercredi 25 Mai :**
   
 <p6>Pour cette dernière séance, il nous restait plus qu'à bien placer tout les servomoteurs. Pour commencer, j'ai préparé plusieurs trombones avec Florent et Alexis que nous allions utilisé comme "pâle" qui allait appuyer sur les notes (en effet, les trombonnes sont assez solides pour tenir et en même temps assez souple pour passer en dessous de la note et ensuite remonter). Après avoir finis cela, nous avons assemblé tout les palonniers sur les servomoteurs, et il fallait maintenant arriver à placer le servomoteur dans la bonne position pour qu'il arrive à appuyer sur la note(les servomoteurs étant assez faibles, il fallait vraiment placer les servomoteurs au milimètre près pour qu'il arriver à appuyer sur la note et à remonter sans bloquer). On a commencé par fixé le servomoteur le plus éloigné avec un pistolet à colle. une fois celui-ci placé, on pouvait ensuite s'en servir comme "mur" pour bloquer les prochains servomoteurs et avoir un appuie en plus. On a donc passé ces dernières heures à bien placer tout les servomoteurs sur la planche au dessus du Kalimba.</p6>
-<br/><br/>
+<br/>
