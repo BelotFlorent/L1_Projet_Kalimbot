@@ -17,16 +17,16 @@ Le principe du Kalimbot est de jouer des partions de Kalimba et de pouvoir chois
 
 # Materiel utilisé
 
-* 11 servomoteurs<br/>
-* 2 batteries (L’une plus puissante)<br/>
-* Une planche en bois (MDF)<br/>
-* Une pallete en bois<br/>
-* De beaucoup de files<br/>
-* Des fils de fer (trombones)<br/>
-* Un Kalimba<br/>
-* Deux cartes UCA avec breadboard<br/>
-* Un écran<br/>
-* 3 boutons<br/>
-* Des serres câbles<br/>
-* Des visses<br/>
-* De la deco (les yeux et les notes)<br/>
+* 8 servomoteurs qui servent a appuyer sur les notes du Kalimba<br/>
+* 2 batteries (L’une plus puissante pour alimenter les servomoteurs et la cartes et l'autre pour la télécommande)<br/>
+* Une planche en bois (MDF) pour réaliser le support.<br/>
+* Une pallete en bois également pour le support là où il faut visser.<br/>
+* De beaucoup de files pour les nombreux branchements sur les cartes UCA.<br/>
+* Des fils de fer (trombones), tordu et imbriqué dans les palonniers des servomoteurs pour appuyer sur les touches.<br/>
+* Un Kalimba.<br/>
+* Deux cartes UCA avec breadboard.<br/>
+* Un écran pour afficher les musiques sur la télécomande.<br/>
+* 3 boutons pour choisir et jouer la musique souhaité.<br/>
+* Des serres câbles.<br/>
+* Des visses.<br/>
+* De la deco (les yeux et les notes).<br/>
