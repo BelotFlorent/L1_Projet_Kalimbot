@@ -10,7 +10,7 @@ Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licenc
 
 # Photo de la télécommande du Kalimbot
 
-![Photo de la télécommande du Kalimbot](https://cdn.discordapp.com/attachments/964249347774627880/980876408240898088/IMG_20220530_150610.jpg)
+![Photo de la télécommande du Kalimbot](https://cdn.discordapp.com/attachments/964249347774627880/980876914594041897/unknown.png)
 
 <br/>
 
