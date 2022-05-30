@@ -4,7 +4,7 @@ Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licenc
 
 # Photo du Kalimbot
 
-![Photo du Kalimbot](https://cdn.discordapp.com/attachments/964249347774627880/980465394705924106/unknown.png)
+![Photo du Kalimbot]([https://cdn.discordapp.com/attachments/964249347774627880/980465394705924106/unknown.png](https://cdn.discordapp.com/attachments/964249347774627880/980877285777350656/unknown.png))
 
 <br/>
 
