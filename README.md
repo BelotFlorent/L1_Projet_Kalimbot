@@ -8,6 +8,13 @@ Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licenc
 
 <br/>
 
+# Photo de la télécommande du Kalimbot
+
+![Photo de la télécommande du Kalimbot](https://cdn.discordapp.com/attachments/964249347774627880/980876408240898088/IMG_20220530_150610.jpg)
+
+<br/>
+
+
 # Description du projet
 
 Le principe du Kalimbot est de jouer des partions de Kalimba et de pouvoir choisir la musique que l’on souhaite jouer sur une télécommande grâce à un écran et à des Boutons. Les message seront envoyés en peer to peer contenant la musique à jouer de la télécommande vers la seconde carte sur le Kalimbot où se trouve les servo-moteurs qui seront actionner en fonction des messages pour jouer la partition.
